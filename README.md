@@ -469,6 +469,99 @@ By following these steps, you ensure the functions work together to provide a sm
 
 ##
 
+## 11. **Running Your Code with Node.js and Viewing the Output**
+
+Now that your code is complete, it's time to **run your JavaScript program** using Node.js and review the output.
+
+### Step Instructions:
+- [ ] **Open the terminal** and navigate to your project folder:
+
+```bash
+cd path/to/your/project
+```
+
+- [ ] **Run your `index.js` file** with Node.js:
+
+```bash
+node index.js
+```
+
+### Expected Output:
+Based on your eCommerce selection and personalized product details, your terminal output should look similar to the following:
+
+```bash
+Welcome to Paws & Claws! We are the best Pet Store in town.
+Here are the products we currently offer:
+Dog Food: $29.99 - Premium food for dogs of all ages.
+Cat Litter: $15.49 - Odor control for your feline friend.
+Bird Seed: $12.99 - Nutritional mix for all types of birds.
+Fish Tank: $89.99 - Spacious tank with built-in filter.
+Hamster Cage: $34.50 - Comfortable home for small pets.
+We've added a new product! Pet Shampoo for $12
+Dog Food: $29.99 - Premium food for dogs of all ages.
+Cat Litter: $15.49 - Odor control for your feline friend.
+Bird Seed: $12.99 - Nutritional mix for all types of birds.
+Fish Tank: $89.99 - Spacious tank with built-in filter.
+Hamster Cage: $34.50 - Comfortable home for small pets.
+Pet Shampoo: $12.00 - Gentle shampoo for pets with sensitive skin.
+Unfortunately, Pet Shampoo is out of stock.
+Dog Food: $29.99 - Premium food for dogs of all ages.
+Cat Litter: $15.49 - Odor control for your feline friend.
+Bird Seed: $12.99 - Nutritional mix for all types of birds.
+Fish Tank: $89.99 - Spacious tank with built-in filter.
+Hamster Cage: $34.50 - Comfortable home for small pets.
+This week, our featured products are:
+Bird Seed
+Cat Litter
+Dog Food
+Products sorted by price (low to high):
+Bird Seed: $12.99
+Cat Litter: $15.49
+Hamster Cage: $34.50
+Dog Food: $29.99
+Fish Tank: $89.99
+Thanks for visiting Paws & Claws!
+Here are our store hours for reference: Monday - Friday: 9 AM - 6 PM, Saturday: 10 AM - 4 PM, Sunday: Closed
+```
+
+### Explanation:
+- **Dynamic Data Handling**: Your code dynamically handles product addition, removal, sorting, and logging.
+- **Array Methods in Action**: You’ve seen how `push()`, `pop()`, `sort()`, `map()`, and `forEach()` manipulate and display product data.
+- **Customer-Facing Message**: The output simulates how an eCommerce store might display updated inventory and messages for customers.
+
+If everything runs as expected, congratulations! You’ve successfully completed your store inventory system.
+
+---
+
+## 12. **Pushing Your Code to GitHub**
+
+After verifying your code works, it’s time to **save it to your GitHub repository** to ensure your work is backed up and version-controlled.
+
+### Step Instructions:
+- [ ] **Stage your changes**:
+
+```bash
+git add .
+```
+
+- [ ] **Commit your changes** with a meaningful message:
+
+```bash
+git commit -m "Refactored product data into objects and added inventory functions"
+```
+
+- [ ] **Push your changes** to the `main` branch:
+
+```bash
+git push origin main
+```
+
+### Verifying the Push:
+- [ ] **Open your GitHub repository** in a browser.
+- [ ] Confirm that the latest commit appears and contains your updated code.
+
+By following these steps, you’ve successfully **pushed your refactored code to GitHub**. Your work is now backed up and accessible for further development or collaboration.
+
 # Conclusion 📄
 
 In this assignment, you successfully built a dynamic system for managing a store’s inventory using JavaScript arrays, objects, and array methods. 
@@ -501,7 +594,7 @@ As you continue to progress, you’ll build on this foundation to create more co
 
 💾 **Not something to copy and paste** 💾
 
-**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-on-the-job-3/tree/solution) (link not shown).
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-on-the-job-4/tree/solution) (link not shown).
 
 
 ---
